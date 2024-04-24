@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Sunflower:wght@300&display=swap');
+  </style>
+  <title>Game</title>
+  <link href="./styles/game.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="wrapper__header">
+      <div class="header__title">
+        <div class="header__title__main">GAME</div>
+        <div class="header__title__sub">mini game heaven</div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="game__container">
+        <img src="./images/wordchain.png">
+        <div class="game__title">
+          <div class="game__title__main">끝말잇기</div>
+          <div class="game__title__sub">제시어 : <span id ="wordchain_start_letter"></span>다람쥐</div>
+        </div>
+        <div class="game__content">
+          <input class="game__content__textbox" id="wordchain_input_box">
+          <button class="game__content__submit">입력</button>
+        </div>
+        <div class="game__result" id="wordchain_result">결과!</div>
+    </div>
+    <div class="game__container"></div>
+  </div>
+</body>
+</html>
