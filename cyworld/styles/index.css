@@ -143,3 +143,23 @@ iframe {
   height: 100%;
   border: none;
 }
+
+.wrapper__menu {
+  width: 100px;
+  height: 432px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+/*.menu__item {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 0.5px;
+  margin-left: -1px;
+  border: 1px solid gray;
+  border-left: 0px;
+  border-radius: 5px;
+}*/
