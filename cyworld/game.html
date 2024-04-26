@@ -8,6 +8,7 @@
   </style>
   <title>Game</title>
   <link href="./styles/game.css" rel="stylesheet">
+  <script src="./game.js"></script>
 </head>
 <body>
   <div class="wrapper">
@@ -22,11 +23,11 @@
         <img src="./images/wordchain.png">
         <div class="game__title">
           <div class="game__title__main">끝말잇기</div>
-          <div class="game__title__sub">제시어 : <span id ="wordchain_start_letter"></span>다람쥐</div>
+          <div class="game__title__sub">제시어 : <span id ="wordchain_current_word">다람쥐</span></div>
         </div>
         <div class="game__content">
           <input class="game__content__textbox" id="wordchain_input_box">
-          <button class="game__content__submit">입력</button>
+          <button class="game__content__submit" onclick="startWord()">입력</button>
         </div>
         <div class="game__result" id="wordchain_result">결과!</div>
     </div>
