@@ -16,5 +16,5 @@ const startWord = () => {
 		document.getElementById("wordchain_result").innerText = "땡!"
 		document.getElementById("wordchain_input_box").value = "";
 		
-	}
+	}.
 }
