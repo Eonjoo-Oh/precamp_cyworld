@@ -1,4 +1,6 @@
-const startWord = () => {
+//const { SignalCellularConnectedNoInternet0BarOutlined } = require("@material-ui/icons");
+
+const wordChain = () => {
 	let inputWord = document.getElementById("wordchain_input_box").value
 	let currentWord = document.getElementById("wordchain_current_word").innerText
 	
@@ -16,4 +18,17 @@ const startWord = () => {
 		document.getElementById("wordchain_result").innerText = "땡!"
 		document.getElementById("wordchain_input_box").value = "";
 	}
-}
+};
+
+const lotto = () => {
+	let lottoNum = document.querySelectorAll("#lotto_num_box span");
+	let randomSet = new Set();
+	for(i = 0; i < 6; i++){
+		randomSet.add(Math.floor(Math.random() * 45) + 1)
+	}
+	let sortNums = Array.from(randomSet).sort((a, b) => a - b);
+	lottoNum.forEach((span, index) => {
+		span.innerText = sortNums[index];
+	});
+};
+
