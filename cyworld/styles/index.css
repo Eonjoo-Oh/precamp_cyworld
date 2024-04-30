@@ -60,8 +60,8 @@
 }
 
 .profile__body__image {
-  width: 148px;
-  height: 148px;
+  width: 150px;
+  height: 150px;
   background-color: gray;
   margin-top: 12px;
 }
@@ -162,12 +162,25 @@ iframe {
   align-items: flex-start;
 }
 
-/*.menu__item {
-  width: 80%;
+.wrapper__menu {
+  width: 62px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 774px;
+  top: 60px;
+}
+
+.menu__item {
+  width: 60px;
   height: 30px;
-  margin-bottom: 0.5px;
-  margin-left: -1px;
-  border: 1px solid gray;
-  border-left: 0px;
-  border-radius: 5px;
-}*/
+  background-color: #298eb5;
+  border: 1px solid black;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}

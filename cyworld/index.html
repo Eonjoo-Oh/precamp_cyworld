@@ -9,7 +9,8 @@
   <title>콩언주의 미니홈피::사이좋은 사람들, 싸이월드</title>
   <link href="./styles/index.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4144ae2d0a.js" crossorigin="anonymous"></script>
-  <link rel="icon" href="./images/favicon.png"
+  <link rel="icon" href="./images/favicon.png">
+  <script src="./index.js"></script>
 </head>
 <body>
   <div class="background">
@@ -59,14 +60,13 @@
           </div>
           <div class="home__body">
             <!--<iframe src="home.html"></iframe>-->
-            <iframe src="home.html"></iframe>
+            <iframe id="contentFrame" src="home.html"></iframe>
           </div>
         </div>
         <div class="wrapper__menu">
-          <button class="menu__item">홈</button>
-          <button class="menu__item">미니게임</button>
-          <button class="menu__item">쥬크박스</button>
-          <button class="menu__item">방명록</button>
+          <div class="menu__item" id="menuHome" onclick="menuHome()">홈</div>
+          <div class="menu__item" id="menuJukebox" onclick="menuJukebox()">쥬크박스</div>
+          <div class="menu__item" id="menuGame" onclick="menuGame()">게임</div>
         </div>
       </div>
       </div>
