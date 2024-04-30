@@ -95,26 +95,65 @@ html, body {
 
 .wrapper__list {
   width: 100%;
-  height: 100%;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  justify-content: end;
-  margin: 10px 8px 10px 8px;
-  background-color: blueviolet;
+  justify-content: end;*/
+  /*margin: 10px 8px 10px 8px;*/
+  /*background-color: blueviolet;*/
 }
 
 .list__body__table {
   /* background-color: aqua; */
-  table-layout: fixed;
+  /*table-layout: fixed;*/
   width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
-  margin-left: 8px;
+  padding-top: 8px;
+  /*border-collapse: collapse;*/
+  border-spacing: 0px;
+  /*margin-top: 10px;
+  margin-left: 8px;*/
 }
 
-.list__body__table__head {
+/*.list__body__table__head {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   text-align: left;
   background-color: lightgray;
+}*/
+
+.list__body__table th {
+  height: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
+  background-color: #eeeeee;
+  padding-top: 5px;
+  border-top: 1px solid gray;
+  border-bottom: 1px dashed gray;
+}
+
+.list__body__table td {
+  height: 20px;
+  font-size: 10px;
+  color: 0f465e;
+  border-bottom: 1px dashed gray;
+}
+
+.table__checkbox {
+  width: 5%;
+  text-align: center;
+}
+
+.table__number {
+  width: 10%;
+  text-align: center;
+}
+
+.table__title {
+  width: 45%;
+  text-align: left;
+}
+
+.table__artist {
+  width: 30%;
+  text-align: center;
 }
