@@ -61,9 +61,15 @@
 
 .profile__body__image {
   width: 148px;
-  height: 133px;
+  height: 148px;
   background-color: gray;
   margin-top: 12px;
+}
+
+.profile__body__image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .profile__body__divider {
